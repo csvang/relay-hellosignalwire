@@ -1,0 +1,18 @@
+{
+  "name": "hello-signalwire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Chue Shee Vang",
+  "license": "ISC",
+  "dependencies": {
+    "@signalwire/realtime-api": "^3.5.1",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
